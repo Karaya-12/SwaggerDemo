@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.swagger2demo</groupId>
+    <artifactId>SwaggerDemo</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <name>Swagger 2 with Spring Boot Demo</name>
+    <description>Swagger 2 with Spring Boot Demo</description>
+    <inceptionYear>2020</inceptionYear>
+
+    <developers>
+        <developer>
+            <name>Xu ShiZhi</name>
+            <id>Karaya_12</id>
+            <email>Karaya.ausf.12@gmail.com</email>
+            <url>https://github.com/Karaya-12</url>
+        </developer>
+    </developers>
+
+    <!-- ============================================== -->
+    <!-- P R O P E R T I E S -->
+    <!-- ============================================== -->
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+        <java.version>13</java.version>
+
+        <maven.compiler.source>13</maven.compiler.source>
+        <maven.compiler.target>13</maven.compiler.target>
+    </properties>
+
+    <!-- ============================================== -->
+    <!-- P A R E N T -->
+    <!-- ============================================== -->
+    <!-- Inherit defaults from Spring Boot -->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.2.5.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <!-- ============================================== -->
+    <!-- D E P E N D E N C I E S -->
+    <!-- ============================================== -->
+    <dependencies>
+        <!-- tag::Spring Boot Starter-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.junit.vintage</groupId>
+                    <artifactId>junit-vintage-engine</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <!-- end::Spring Boot Starter -->
+
+        <!-- tag::Swagger 2 -->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>2.9.2</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>2.9.2</version>
+        </dependency>
+        <!-- end::Swagger 2 -->
+    </dependencies>
+
+    <!-- ============================================== -->
+    <!-- B U I L D -->
+    <!-- ============================================== -->
+    <!-- Package as an executable jar -->
+    <build>
+        <defaultGoal>package</defaultGoal>
+        <plugins>
+            <!-- tag::Spring Boot Maven -->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <!-- end::Spring Boot Maven -->
+        </plugins>
+    </build>
+
+    <!-- ============================================== -->
+    <!-- R E P O S I T O R I E S -->
+    <!-- ============================================== -->
+    <repositories>
+        <repository>
+            <id>spring-snapshots</id>
+            <url>http://repo.spring.io/snapshot</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>spring-milestones</id>
+            <url>http://repo.spring.io/milestone</url>
+        </repository>
+    </repositories>
+
+    <!-- ============================================== -->
+    <!-- P L U G I N  R E P O S I T O R I E S -->
+    <!-- ============================================== -->
+    <pluginRepositories>
+        <pluginRepository>
+            <id>spring-snapshots</id>
+            <url>http://repo.spring.io/snapshot</url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>spring-milestones</id>
+            <url>http://repo.spring.io/milestone</url>
+        </pluginRepository>
+    </pluginRepositories>
+
+</project>
