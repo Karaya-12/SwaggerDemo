@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a241142-12bd-428a-9249-5811a99ef639" name="Default Changelist" comment="" />
+    <list default="true" id="5a241142-12bd-428a-9249-5811a99ef639" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +33,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -42,6 +47,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1ZDqkgVSbf5coTMOXtCegKzoNFh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -106,7 +112,8 @@
       <workItem from="1584473843334" duration="2136000" />
       <workItem from="1584555765105" duration="2877000" />
       <workItem from="1584558684350" duration="3801000" />
-      <workItem from="1584641331985" duration="3006000" />
+      <workItem from="1584641331985" duration="4117000" />
+      <workItem from="1584728066326" duration="190000" />
     </task>
     <servers />
   </component>
@@ -130,38 +137,38 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="691" y="392" width="538" height="303" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1080@0.0.1920.1080" timestamp="1584558255051" />
-    <state width="1348" height="207" key="GridCell.Tab.0.bottom" timestamp="1584644435475">
+    <state width="1348" height="207" key="GridCell.Tab.0.bottom" timestamp="1584646314229">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1348" height="207" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1584644435475" />
-    <state width="1348" height="207" key="GridCell.Tab.0.center" timestamp="1584644435474">
+    <state width="1348" height="207" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1584646314229" />
+    <state width="1348" height="207" key="GridCell.Tab.0.center" timestamp="1584646314228">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1348" height="207" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1584644435474" />
-    <state width="1348" height="207" key="GridCell.Tab.0.left" timestamp="1584644435473">
+    <state width="1348" height="207" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1584646314228" />
+    <state width="1348" height="207" key="GridCell.Tab.0.left" timestamp="1584646314227">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1348" height="207" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1584644435473" />
-    <state width="1348" height="207" key="GridCell.Tab.0.right" timestamp="1584644435474">
+    <state width="1348" height="207" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1584646314227" />
+    <state width="1348" height="207" key="GridCell.Tab.0.right" timestamp="1584646314228">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1348" height="207" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1584644435474" />
-    <state width="1348" height="207" key="GridCell.Tab.1.bottom" timestamp="1584644435476">
+    <state width="1348" height="207" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1584646314228" />
+    <state width="1348" height="207" key="GridCell.Tab.1.bottom" timestamp="1584646314231">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1348" height="207" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1584644435476" />
-    <state width="1348" height="207" key="GridCell.Tab.1.center" timestamp="1584644435476">
+    <state width="1348" height="207" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1584646314231" />
+    <state width="1348" height="207" key="GridCell.Tab.1.center" timestamp="1584646314230">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1348" height="207" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1584644435476" />
-    <state width="1348" height="207" key="GridCell.Tab.1.left" timestamp="1584644435475">
+    <state width="1348" height="207" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1584646314230" />
+    <state width="1348" height="207" key="GridCell.Tab.1.left" timestamp="1584646314229">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1348" height="207" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1584644435475" />
-    <state width="1348" height="207" key="GridCell.Tab.1.right" timestamp="1584644435476">
+    <state width="1348" height="207" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1584646314229" />
+    <state width="1348" height="207" key="GridCell.Tab.1.right" timestamp="1584646314230">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1348" height="207" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1584644435476" />
+    <state width="1348" height="207" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1584646314230" />
     <state x="441" y="175" key="SettingsEditor" timestamp="1584386402069">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -174,5 +181,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="578" y="221" width="764" height="638" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1584642183473" />
+    <state x="187" y="240" width="1537" height="596" key="new project wizard" timestamp="1584646097698">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="187" y="240" width="1537" height="596" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1584646097698" />
   </component>
 </project>
